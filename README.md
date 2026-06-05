@@ -1,4 +1,4 @@
-# MedVLM HybridRAG: Multimodal Medical Vision-Language Graph-Vector RAG
+# Multimodal Medical Vision-Language Graph-Vector RAG
 
 MedVLM HybridRAG is an advanced, clinical-grade Retrieval-Augmented Generation (RAG) pipeline designed to process raw medical scans (e.g., X-rays, CTs, MRIs) and complex PDF medical reports. It leverages state-of-the-art Multimodal Vision-Language Models (VLMs) for parsing, stores structured and unstructured facts in a Hybrid Storage Layer (Neo4j + Qdrant), and employs an agentic search workflow via LangGraph to produce zero-hallucination, medically verified answers.
 
