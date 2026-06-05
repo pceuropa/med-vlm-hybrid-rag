@@ -64,7 +64,7 @@ Launch the required graph and vector microservices via Docker Compose:
 ```bash
 cp .env_example .env
 docker-compose up -d
-pip install .
+python -m pip install .
 ```
 
 ## Execution Flow
@@ -93,10 +93,7 @@ Launch the visual dashboard to upload scans, view Neo4j graph nodes, and run age
 streamlit run app.py
 ```
 
----
-
 ## Data & Graph Schema
-
 The pipeline uses strict **Pydantic** validation models to convert unstructured VLM outputs into a typed structure.
 
 ### Entity-Relation JSON Definition
@@ -118,7 +115,6 @@ The pipeline uses strict **Pydantic** validation models to convert unstructured 
 ---
 
 ## Zero-Hallucination Agent Flow
-
 The agent utilizes **LangGraph** to guarantee clinical accuracy. The query evaluation sequence is as follows:
 
 ```
