@@ -63,23 +63,8 @@ Launch the required graph and vector microservices via Docker Compose:
 
 ```bash
 docker-compose up -d
-```
-
-### 2. Environment Setup
-Configure your credentials by copying the example environment file:
-```bash
-cp .env_example .env
-```
-
-### 3. Installation
-
-Install the package and all dependencies locally in your Python virtual environment:
-
-```bash
 pip install .
-pip install -e .
 ```
-
 
 ## Execution Flow
 
@@ -152,5 +137,4 @@ The agent utilizes **LangGraph** to guarantee clinical accuracy. The query evalu
 ---
 
 ## License
-
 This project is licensed under the MIT License - see the LICENSE file for details.
