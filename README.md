@@ -62,6 +62,7 @@ MedVLM HybridRAG is an advanced, clinical-grade Retrieval-Augmented Generation (
 Launch the required graph and vector microservices via Docker Compose:
 
 ```bash
+cp .env_example .env
 docker-compose up -d
 pip install .
 ```
